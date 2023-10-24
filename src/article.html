@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <title>Bootstrap 5 Layout</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<style>
+  .jumbotron {
+    background-image: url(img/pirate-ship.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  .bg-coral-blue {
+    background-color: rgba(13, 179, 165, 0.888);
+  }
+</style>
+
+<body>
+  <div class="container-fluid"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <a href="#" class="navbar-brand">Pirate Cove</a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav">
+                  <a href="index.html" class="nav-item nav-link active">Home</a>
+                  <a href="article.html" class="nav-item nav-link">Article</a>
+                  <a href="photos.html" class="nav-item nav-link">Photos</a>
+              </div>
+          </div>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <header class="py-5 mb-4 text-center">
+        <h1>Ship's Log</h1>
+        <p class="lead">A diary by Capt. Crit 'Red Beard' McGillicutty</p>
+      </header>
+    </div>
+    <div class="Pirate">
+      <img src="img/pirate.jpg">
+    </div>
+    <div class="title" style="margin-left: 50px;">
+      <header class="text-left;">
+        <h2><input type="text" size="32" placeholder="1000"></h2>
+      </header>
+  </div>
+</body>
+<footer><p class="text-center bg-coral-blue text-black m-3 p-3">Site by Kraken Industries</p></footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+</html>

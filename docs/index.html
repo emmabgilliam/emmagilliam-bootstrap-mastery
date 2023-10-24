@@ -6,12 +6,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css">
 </head>
+<style>
+  .jumbotron {
+    background-image: url(img/pirate-ship.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  .bg-coral-blue {
+    background-color: rgba(13, 179, 165, 0.888);
+  }
+</style>
 
 <body>
-  <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
-
-  <!-- Closing scripts here -->
-  <script src="js/bootstrap.bundle.min.js"></script>
+<div class="container-fluid"></div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand">Pirate Cove</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">Article</a>
+                <a href="#" class="nav-item nav-link">Photos</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="jumbotron">
+  <header class="py-5 mb-4 text-center">
+    <h1>Ship's Log</h1>
+    <p class="lead">A diary by Capt. Crit 'Red Beard' McGillicutty</p>
+  </header>
+</div>
+<div class="title" style="margin-left: 50px;">
+  <header class="text-left;">
+    <h2>Thar be monsters in the sea</h2>
+  </header>
+</div>
+<div class="container-fluid" style="display: flex;">
+  <div class="card" style="width: 300px; margin-right: 10px; margin-left: 50px;">
+    <img src="img/kraken01.jpg" class="card-img-top" alt="...">
+    <div class="card-body text-left">
+      <h5 class="card-title">Name this Kraken!</h5>
+      <p class="card-text">It was a foul sight, an obscene growth from the dark places of the world, where incessant hunger is the driving force. </p>
+    </div>
+  </div>
+  <div class="card" style="width: 300px; margin-right: 10px">
+    <img src="img/kraken02.jpg" class="card-img-top" alt="...">
+    <div class="card-body text-left">
+      <h5 class="card-title">Name this Kraken!</h5>
+      <p class="card-text">Be not afraid of whirlpools, of strong winds, and murky waves. Fear the creature that dwells in the darkest depths, the ice-shackled Kraken, that threatens to surface and your soul to keep.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 300px;">
+    <img src="img/kraken03.jpg" class="card-img-top" alt="...">
+    <div class="card-body text-left">
+      <h5 class="card-title">Name this Kraken!</h5>
+      <p class="card-text">Look: the kraken of your idiocy. Yes, there it is, moving darkly beneath the water.</p>
+    </div>
+  </div>
+</div>
 </body>
+<footer><p class="text-center bg-coral-blue text-black m-3 p-3">Site by Kraken Industries</p></footer>
+<script src="js/bootstrap.bundle.min.js"></script>
 </html>
